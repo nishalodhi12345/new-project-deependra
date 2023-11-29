@@ -1,0 +1,1241 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.head-main {
+    width: 100%;
+    float: left;
+}
+
+.head {
+    width: 100%;
+    float: left;
+position: relative;
+    
+}
+.head-cont {
+    width: 16%;
+    float: left;
+    border-right: 1px solid gainsboro;
+  padding:0 15px;
+ position: fixed;
+}
+
+.head-conts {
+    width: 82%;
+    float: right;
+}
+
+.head-left-main {
+    width: 100%;
+    float: left;
+}
+
+.head-left {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.head-image {
+    padding: 27px 14px;
+}
+
+.head-left ul li a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 54px;
+    padding-left: 22px;
+    transition: 0.5s;
+}
+
+.head-left ul li a i {
+    font-size: 20px;
+    padding-right: 14px;
+}
+
+.head-left ul li:hover{
+    background-color: gainsboro;
+border-radius: 6px;
+}
+
+.head-left ul li:hover i{
+    background-color: gainsboro;
+border-radius: 6px;
+transform: scale(1.1);
+}
+
+.head-left ul li:hover img{
+    transform: scale(1.1);
+}
+li.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 9px;
+    transition: 0.5s;
+}
+span.box {
+    background: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 284px;
+    left: 35px;
+}
+
+
+.headss {
+    width: 100%;
+    float: left;
+ padding-top: 90px;
+ position: relative;
+
+}
+
+.headss ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 54px;
+    transition: 0.5s;
+}
+.headss ul li a i {
+    font-size: 20px;
+    padding-right: 14px;
+}
+
+.headss ul li:hover{
+    background-color: gainsboro;
+border-radius: 6px;
+}
+
+.headss ul li:hover i{
+transform: scale(1.1);
+} 
+
+span.font-icon {
+    position: absolute;
+    top: 104px;
+    left: 170px;
+    display: none;
+ display: none;
+}
+
+.headss:hover .font-icon{
+display: block;
+}
+
+.head-right-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+
+
+.home-image-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.home-image img {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #dc5405, #4b7c2b, #c52b5c);
+    padding: 3px;
+}
+.home-imagess img {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.home-image p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.home-imagess {
+    position: relative;
+}
+
+
+span.plus {
+    width: 25px;
+    height: 25px;
+    background: blue;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 44px;
+    left: 55px;
+}
+
+.home-left {
+    width: 60%;
+    float: left;
+}
+.home-right {
+    width: 40%;
+    float: right;
+}
+
+.priti-main {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 11px;
+    padding-top: 17px;
+}
+.home-image-main .slick-prev {
+    left: 27px;
+    z-index: 9999;
+    top: 41px;
+}
+
+.home-image-main .slick-next {
+    right: 60px;
+    top: 39px;
+    z-index: 9999;
+}
+
+
+.priti-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 9px;
+
+}
+
+.priti-image {
+    width: auto;
+    float: left;
+    position: relative;
+    
+}
+
+.priti-icon {
+    width: auto;
+    display: inline-block;
+   
+}
+
+.priti-icon span {
+    font-size: 14px;
+}
+
+.priti-icon p {
+    font-size: 11px;
+}
+
+span.elipsh {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    font-size: 21px;
+}
+
+
+.silds {
+    width: 100%;
+    float: left;
+}
+
+.priti-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+
+.priti-1 {
+    width: 529px;
+    height: 529px;
+    border-radius: 6px;
+}
+
+.silds .slick-prev {
+    left: 25px;
+    z-index: 9999;
+    top: 286px;
+}
+.silds .slick-next {
+    right: 25px;
+    top: 286px;
+    z-index: 9999;
+}
+
+
+.silds .slick-next:before {
+    content: '\f104 ';
+    font-family:'FontAwesome';
+    width: 25px;
+    height: 25px;
+    background: white;
+    color: black;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.silds .slick-prev:before {
+    content: '\f104 ';
+    font-family:'FontAwesome';
+    width: 25px;
+    height: 25px;
+    background: white;
+    color: black;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;;
+}
+
+.silds .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    padding: 0;
+    background:white;
+    border-radius: 50%;
+
+}
+
+.silds .slick-dots li button:before {
+    font-family: '';
+    font-size: 0px;
+    line-height: 0px;
+    content: '';
+    
+   
+}
+
+.silds .slick-dots {
+    position: absolute;
+    bottom: 17px;
+    display: block;
+}
+
+
+.silds .slick-dots li.slick-active {
+    background: red;
+}
+
+.comment {
+    width: 100%;
+    float: left;
+    position: relative;
+   
+}
+
+.comment ul li {
+    display: inline-block;
+}
+
+.comment ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.comment ul li a i {
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+    padding-left: 19px;
+}
+li.mess {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.like {
+    width: 100%;
+    float: left;
+}
+.like h5 {
+    font-size: 16px;
+}
+
+.comment-text {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+
+span.simle {
+    font-size: 16px;
+}
+
+
+
+
+.sildser .slick-prev {
+    left: 25px;
+    z-index: 9999;
+    top: 286px;
+}
+.sildser .slick-next {
+    right: 25px;
+    top: 286px;
+    z-index: 9999;
+}
+
+
+.sildser .slick-next:before {
+    content: '\f104 ';
+    font-family:'FontAwesome';
+    width: 25px;
+    height: 25px;
+    background: white;
+    color: black;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.sildser .slick-prev:before {
+    content: '\f104 ';
+    font-family:'FontAwesome';
+    width: 25px;
+    height: 25px;
+    background: white;
+    color: black;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;;
+}
+
+.like p {
+    font-size: 14px;
+}
+
+.like span {
+    font-size: 14px;
+}
+
+.sildsss {
+    width: 100%;
+    float: left;
+}
+
+
+.commentss {
+    width: 100%;
+    float: left;
+    position: relative;
+   padding-top: 33px;
+}
+
+.commentss ul li {
+    display: inline-block;
+}
+
+.commentss ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.commentss ul li a i{
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+    padding-right: 6px;
+}
+
+li.messs {
+    position: absolute;
+    top: 37px;
+    right: 0;
+}
+
+.follow-main {
+    width: 100%;
+    float: left;
+    padding-top: 19px;
+}
+
+.priti-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.fols {
+    position: relative;
+    top: -21px;
+    left: 162px;
+    color: blue;
+}
+
+.folloe-left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.folloe-left p {
+    color: blue;
+}
+
+.folo-box {
+    width: 30%;
+    float: left;
+    border: 2px solid gainsboro;
+    padding: 11px 0px;
+    border-radius: 7px;
+    position: relative;
+    margin: 10px;
+}
+.folo-image {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+   
+}
+.folo-image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 63px;
+}
+
+p.top {
+    margin-top: -24px;
+}
+
+.folow-hd {
+    width: 100%;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.folow-hd h6{
+    color: blue;
+}
+
+span.cross {
+    position: absolute;
+    top: 0;
+    right: 13px;
+}
+
+
+.box-silder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+.imass-mar-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 7px;
+}
+
+.imass-mar-left span a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+    margin-left: -10px;
+}
+
+.check-box {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+
+.check-box img {
+    width: 24%;
+}
+
+.show-follow-main {
+    width: 100%;
+    float: left;
+    padding: 4px 102px;
+    position: relative;
+}
+
+.elipshs {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: blue;
+}
+
+.folloe-right {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+.postion {
+    position: absolute;
+    top: 0;
+    right: -110px;
+    font-size: 16px;
+    color: gray;
+}
+
+.folloe-right h5 {
+    font-size: 16px;
+    color: gray;
+}
+
+
+
+
+.show-folow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+.show-image {
+    width: auto;
+    float: left;
+    padding-right: 9px;
+}
+
+.show-image img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.show-imager {
+    width: auto;
+    float: right;
+    padding-right: 51px;
+}
+
+.show-imager h6 {
+    font-size: 14px;
+}
+
+.show-imager p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.show-imagers {
+    width: auto;
+    float: right;
+}
+
+.show-imagers p {
+    font-size: 14px;
+    color: blue;
+}
+
+.about-left {
+    width: 100%;
+    float: left;
+}
+
+.about-left h6 {
+    font-size: 12px;
+    color: gray;
+}
+.about-left span {
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+.about-left p {
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.dropdow {
+    position: absolute;
+    top: 57px;
+    left: 5px;
+    z-index: 999999;
+    background: white;
+    width: 511px;
+    box-shadow: 0px 0px 6px gainsboro;
+    border-radius: 7px;
+    padding: 9px 9px;
+    display: none;
+    transition: 0.5s;
+}
+
+.dropdow.show-dropdow {
+    display: block;
+} 
+
+
+.post-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.post {
+    width: 100%;
+    text-align: center;
+}
+
+.post h5 {
+    font-size: 16px;
+}
+
+.post span {
+    font-size: 15px;
+}
+
+.post img {
+    width: 156px;
+    height: 156px;
+    border-radius: 0;
+}
+
+.post-vedio {
+    width: 100%;
+    padding-top: 11px;
+    display: flex;
+    justify-content: center;
+}
+.posts img {
+    width: 148px;
+    height: 144px;
+    border-radius: 0px;
+}
+
+.button {
+    width: 100%;
+    padding:10px 10px;
+}
+
+.button a {
+    padding: 5px 200px;
+    background: gainsboro;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+button.btn.btn-primary {
+    background: none;
+    border: none;
+    color: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #131212;
+    background-color: none;
+    border-color:none;
+} 
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: none;
+}
+
+.modal-dialog {
+    max-width: 800px;
+   
+}
+
+.modal-body {
+    padding: 0; 
+}
+
+.model-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.model-cont {
+    width: 40%;
+}
+
+.modei-cont {
+    width: 60%;
+    overflow-y: auto;
+    height: 265px;
+}
+
+.model-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.model-text {
+    width: 100%;
+    float: left;
+    padding: 16px 12px;
+}
+
+span.color {
+    color: blue;
+    font-weight: 600;
+}
+
+span.elipshw {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    font-size: 21px;
+}
+
+span.harsd {
+    position: absolute;
+    top: 102px;
+    right: 22px;
+}
+
+.search-main {
+    width: 100%;
+    float: left;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.icon ul li {
+    display: inline-block;
+}
+
+.icon ul li a {
+    color: #54656f;
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+.mike-input input {
+    outline: none;
+    width: 305px;
+    height: 40px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.mike i {
+    font-size: 24px;
+    padding-right: 21px;
+}
+
+button.close {
+    position: absolute;
+    right: -174px;
+    top: -9px;
+    z-index: 999999;
+}
+
+.head-con {
+    width: 4%;
+    float: left;
+    position: fixed;
+}
+
+.head-cons {
+    width: 96%;
+    float: right;
+}
+
+.head-mainss {
+    width: 100%;
+    float: left;
+}
+
+.fix-left ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 62px;
+    padding: 13px 15px;
+    transition: 0.5s;
+}
+
+.fix-left ul li a i {
+    font-size: 26px;
+}
+
+.fix-left {
+    width: 100%;
+    float: left;
+    border-right: 1px solid gainsboro;
+    padding-bottom: 250px;
+}
+
+.fix-left ul li a:hover{
+    background-color: gainsboro;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+span.boxs {
+    background: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 325px;
+    left: 35px;
+}
+
+.bass {
+    width: auto;
+    float: left;
+    position: relative;
+    top:-148px ;
+    left: 13px;
+}
+
+.bass ul li a{
+    text-decoration: none;
+    color: black !important;
+}
+
+
+.scrool-right {
+    width: 100%;
+    float: left;
+}
+
+.tab-cont {
+    width: 25%;
+    float: left;
+}
+.tab-conts {
+    width: 75%;
+    float: left;
+}
+
+.tab-main {
+    width: 100%;
+    float: left;
+}
+
+.tan-id {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 15px;
+}
+
+
+.tan-id h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.tan-id span i {
+    font-size: 18px;
+}
+
+.tan-id h5 {
+    font-size: 17px;
+}
+
+.tan-id p {
+    font-size: 14px;
+    font-weight: 600;
+    color: blue;
+}
+
+.tab-cont {
+    width: 25%;
+    float: left;
+    border-right: 1px solid gainsboro;
+}
+
+.tab-main .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #1b1a1a;
+    background-color: #efefef;
+}
+
+.tav-chat-main {
+    width: 100%;
+    float: left;
+}
+
+.tav-chat-cont {
+    width: 22%;
+    float: left;
+}
+.tav-chat-conts {
+    width: 78%;
+    float: right;
+}
+
+.chat-image {
+    width: auto;
+     float: left;
+}
+
+.chat-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.chat-image {
+    width: 100%;
+    text-align: left;
+}
+
+.chat-image h6 {
+    font-size: 15px;
+}
+
+.chat-image p {
+    color: gray;
+    font-size: 13px;
+}
+.socol {
+    width: 100%;
+    float: left;
+    overflow-y: auto;
+    height:610px;
+}
+
+.tav-mamin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0px;
+}
+
+.tav-imag img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.tav-imag span {
+    padding-left: 12px;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.ago {
+    position: absolute;
+    top: 38px;
+    left: 90px;
+    font-size: 14px;
+}
+.tav-imag {
+    width: auto;
+    float: left;
+    padding-left: 13px;
+}
+
+.tav-icon ul li {
+    display: inline-block;
+}
+
+.tav-icon ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 6px;
+    font-size: 24px;
+}
+
+.tav-center-main {
+    width: 100%;
+    float: left;
+}
+
+.tav-center-image {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.tav-center-image img {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+}
+
+.buttona {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.buttona a {
+    padding: 4px 16px;
+    background: gainsboro;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+.chat-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 304px 0;
+}
+
+
+.chat-mains {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: -122px;
+}
+.chat-hd {
+    width: auto;
+    float: left;
+    
+}
+
+.chat-hd img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.chat-hd span {
+    color: black;
+    background: #efefef;
+    padding: 5px 18px;
+    border-radius: 20px;
+}
+.back span {
+    color: white;
+    background:blue;
+    padding: 5px 18px;
+    border-radius: 20px;
+}
+
+.chat-hd.back {
+    margin-top: -108px;
+}
+
+.sroll {
+    width: 100%;
+    float: left;
+    overflow-y: auto;
+    height: 610px;
+}
+
+.solo-input-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    border-radius: 64px;
+}
+
+.solo-input span input {
+    background: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.solo-input span i {
+    padding-left:20px;
+}
+
+.solo-input ul li {
+    display: inline-block;
+}
+
+.solo-input ul li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 18px;
+    font-size: 20px;
+}
+
+ .toggle input {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.toggle span::after {
+    content: "\f08a ";
+    font-family: fontAwesome;
+    font-size: 20px;
+    color: black;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -2px;
+    left: -5px;
+}
+
+.comment input:checked + span::after{
+    content: "\f004 ";
+    font-family: fontAwesome;
+    color: rgb(230, 5, 5);
+    font-size: 20px;
+    } 
+
+    .toggle{
+        position: relative;
+        width: 25px;
+        float: left;
+    }
